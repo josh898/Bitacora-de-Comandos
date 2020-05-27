@@ -23,10 +23,10 @@
       	<li>cd (nombre de carpeta): pasa al directorio de esa carpeta.</li>
 			</ul>		
   <li>touch: crea archivos</li>
-      <h4>Ejemplo<h4>
-			<ul>
-      	<li>touch archivo1.txt: crear un archivo de formato .txt llamado archivo1</li>
-			</ul>	
+      <h4>Ejemplo</h4>
+	<ul>
+      <li>touch archivo1.txt: crear un archivo de formato .txt llamado archivo1</li>
+	</ul>	
   <li>Cat: Muestra el contenido de un archivo.</li> 
   <li>Ps -aux: muestra todos los procesos que están corriendo de momento en el equipo.</li>
   <li>Pstree: muestra los procesos pero con grafica de arbol donde se ven las jerarquias de los procesos.</li>
