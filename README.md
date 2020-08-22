@@ -67,7 +67,17 @@
   <li>cp : copia un archivo.</li>
   <li>Rm: borra un archivo o un directorio completo (con el parametro -R) usando (letra)* se puede borrar todos los archivos que empiezan con esa letra.</li>
   <li>Tar: sirve para crear un archivo comprimido .tar</li>
-  <li>Tar -xvf: para descomprimir los archivos.</li>
+  <li>Reboot: se utiliza para reiniciar la maquina cerrando todo lo que este abierto.</li>
+  <li>Shutdown: se utiliza para apagar la computadora en un minuto</li>
+  <li>Shutdown now: apaga la computadora de una vez</li>
+  <li>Hostname: da el nombre del equipo</li>
+  <li>wget : se utiliza para descargar aplicaciones utilizando el url.</li>
+  <li>Echo: para ver los contenidos</li>
+  <li>$(algo): es una variable.</li>
+  <li>Curl: se utiliza para hacer peticiones a un sitio web utilizando el protocol HTTP.</li>
+  <li>Zenity: se utiliza para enviar un mensaje via la terminal.</li>
+  <li>Md5sum, sha1sum, sha256sum, sha512: se usa para conseguir el Hash de un string.</li>
+  <li>Nmap: permite ver los puertos abiertos.</li>
   </ul>
   <h3>Comandos Swap</h3>
    	<ul>
@@ -81,4 +91,11 @@
   	<li>sudo mkdir /mnt/ram_disk: crea la carpeta para el disco de ram.</li>
   	<li>sudo mount -t tmpfs -o size=1024m new_ram_disk /mnt/ram_disk: montar la memoria ram dentro de la carpeta creada.</li>
   	<li>Df -h / muestra los disco duros actuales en la computadora. Unidades montados en la computadora</li>
-  	</ul>		
+  	</ul>
+  <h3>Comandos para Docker</h3>
+  	<ul>
+  	<li>docker pull (Nombre de Imagen): nos instala la imagen del repositorio de docker.</li>
+  	<li>docker run -it -d (Nombre de Imagen): crea el contendor utilizando la imagen instalada.</li>
+  	<li>docker ps: nos da la lista de las imagenes que estan corriendo</li>
+	<li>docker commit (id del contendor) (usuario/nombre de la imagen): permite crear una imagen nueva en el sistema local de lo que ha estado trabajando.</li>
+  	</ul>
