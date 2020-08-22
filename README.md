@@ -63,8 +63,8 @@
   <li>Mount: se utiliza para montar particiones nuevas, se puede hacer para hacer una carpeta una partición.</li>
   <li>Gnome-disk-utility: programa que muestra información sobre el disco duro, como el espacio que tiene ocupado o si hay errores.</li>
   <li>Gparted: programa para administrar las particiones.</li>
-  <li>mv : sirve para cambiarle el nombre o moverlo.</li>
-  <li>cp : copia un archivo.</li>
+  <li>mv: sirve para cambiarle el nombre o moverlo.</li>
+  <li>cp: copia un archivo.</li>
   <li>Rm: borra un archivo o un directorio completo (con el parametro -R) usando (letra)* se puede borrar todos los archivos que empiezan con esa letra.</li>
   <li>Tar: sirve para crear un archivo comprimido .tar</li>
   <li>Reboot: se utiliza para reiniciar la maquina cerrando todo lo que este abierto.</li>
@@ -78,7 +78,12 @@
   <li>Zenity: se utiliza para enviar un mensaje via la terminal.</li>
   <li>Md5sum, sha1sum, sha256sum, sha512: se usa para conseguir el Hash de un string.</li>
   <li>Nmap: permite ver los puertos abiertos.</li>
+  <li>ifconfig: se utiliza para ver la configuracion de las redes en un sistema</li>
+  <li>ipaddr show: para ver la direccion IP del equipo.</li>  
   <li>"<>": se utiliza para dirigir la salida de un comando a un archivo.</li>
+  <li>nano: abre un editor de texto.</li>
+  <li>find: se utiliza para encontrar un archivo con parametros especificos</li>
+  <li>locate: sirve para encontrar archivos usando el nombre.</li>	 
   </ul>
   <h3>Comandos Swap</h3>
    	<ul>
