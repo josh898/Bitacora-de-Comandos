@@ -78,6 +78,7 @@
   <li>Zenity: se utiliza para enviar un mensaje via la terminal.</li>
   <li>Md5sum, sha1sum, sha256sum, sha512: se usa para conseguir el Hash de un string.</li>
   <li>Nmap: permite ver los puertos abiertos.</li>
+  <li>"<>": se utiliza para dirigir la salida de un comando a un archivo.</li>
   </ul>
   <h3>Comandos Swap</h3>
    	<ul>
